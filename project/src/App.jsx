@@ -32,39 +32,18 @@ function App() {
                     className="banner__content"
                     data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
                   >
-                    <img
-                      src="assets/img/objects/ethereum-01.png"
-                      width="44"
-                      alt="object"
-                      style={{ top: "-25%", left: "38%" }}
-                      data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
-                    />
-                    <img
-                      src="assets/img/objects/circle-01.png"
-                      width="16"
-                      alt="object"
-                      style={{ top: "14%", left: "-12%" }}
-                      data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 420;"
-                    />
-                    <img
-                      src="assets/img/objects/circle-03.png"
-                      width="24"
-                      alt="object"
-                      style={{ bottom: "-16%", left: "12%" }}
-                      data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 440;"
-                    />
-
-                    <h2 className="title">Supercharge your NFT Adventure</h2>
+                   
+                    <h2 className="title">BEKASI BIKIN APLIKASI</h2>
                     <p className="desc">
-                      Find the right NFT collections to buy within the platform.
+                    Layanan Rekayasa Perangkat Lunak Diskominfosantik Kabupaten Bekasi.
                     </p>
                     <a
-                      href="https://opensea.io/"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="banner__btn btn gradient-btn"
                     >
-                      <span>View in OPENSEA</span>
+                      <span>Lihat layanan</span>
                       <i className="unicon-arrow-right"></i>
                     </a>
                   </div>
@@ -74,48 +53,9 @@ function App() {
                     className="banner__images"
                     data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
                   >
-                    <img
-                      src="assets/img/objects/bitcoin-01.png"
-                      width="44"
-                      className="shape"
-                      alt="object"
-                      style={{ top: "67%", left: "-21%" }}
-                      data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 460;"
-                    />
-                    <img
-                      src="assets/img/objects/x.png"
-                      width="28"
-                      className="shape"
-                      alt="object"
-                      style={{ top: "-4%", right: "16%" }}
-                      data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 480;"
-                    />
+                  
 
-                    <img
-                      className="shape dashed-line has-active-light"
-                      width="300"
-                      src="assets/img/others/blob-dashed.svg"
-                      alt="Blog dashed"
-                      style={{
-                        top: "-10%",
-                        right: "17%",
-                        fill: "transparent",
-                        opacity: 0.1,
-                      }}
-                    />
-                    <img
-                      className="shape dashed-line has-active-dark"
-                      width="300"
-                      src="assets/img/others/blob-dashed-light.svg"
-                      alt="Blog dashed"
-                      style={{
-                        top: "-10%",
-                        right: "17%",
-                        fill: "transparent",
-                        opacity: 0.1,
-                      }}
-                    />
-
+                   
                     <svg
                       style={{ top: "-17%", opacity: 0.3 }}
                       className="shape"
@@ -123,18 +63,18 @@ function App() {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill="#F796FF"
+                        fill="#77f20b"
                         d="M47.5,-67.2C55.9,-59.3,53.2,-37.9,56.7,-20.1C60.2,-2.3,69.9,11.8,70.8,27.3C71.7,42.9,63.8,59.9,50.6,64.4C37.3,68.9,18.6,60.8,-0.3,61.2C-19.3,61.6,-38.6,70.7,-53.5,66.7C-68.4,62.8,-78.9,45.9,-78.8,29.5C-78.7,13.2,-67.9,-2.7,-59.8,-16.8C-51.6,-31,-46,-43.3,-36.5,-50.9C-27,-58.4,-13.5,-61.1,3,-65.2C19.6,-69.4,39.1,-75.1,47.5,-67.2Z"
                         transform="translate(100 100)"
                       ></path>
                     </svg>
 
                     <div className="banner__images-grid">
-                      <div className="left">
-                        <img src="assets/img/artwork/05.jpg" alt="artwork" />
-                      </div>
+                      {/* <div className="left">
+                        <img src="assets/img/vektor1.png" alt="artwork" />
+                      </div> */}
                       <div className="right">
-                        <img src="assets/img/artwork/13.jpg" alt="artwork" />
+                        <img src="assets/img/vektor2.png" alt="artwork" />
                       </div>
                     </div>
 
@@ -158,7 +98,7 @@ function App() {
                         </defs>
                         <text fontSize="11.75">
                           <textPath xlinkHref="#circle">
-                            view in opensea • view in opensea •
+                          BEKASI BIKIN APLIKASI • BEKASI BIKIN APLIKASI •
                           </textPath>
                         </text>
                       </svg>
@@ -177,65 +117,65 @@ function App() {
               <div className="row justify-content-center">
                 <div className="col-xl-10 col-12">
                   <h6 className="brand__title">
-                    POWERED BY AMAZING INVESTORS:
+                    Amazing Our Partners:
                   </h6>
                   <div className="brand__list">
                     <div className="brand__item">
                       <img
-                        src="assets/img/wallets/wallet-01.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-light"
                         alt="brand"
                       />
                       <img
-                        src="assets/img/wallets/wallet-light-01.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-dark"
                         alt="brand"
                       />
                     </div>
                     <div className="brand__item">
                       <img
-                        src="assets/img/wallets/wallet-02.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-light"
                         alt="brand"
                       />
                       <img
-                        src="assets/img/wallets/wallet-light-02.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-dark"
                         alt="brand"
                       />
                     </div>
                     <div className="brand__item">
                       <img
-                        src="assets/img/wallets/wallet-03.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-light"
                         alt="brand"
                       />
                       <img
-                        src="assets/img/wallets/wallet-light-03.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-dark"
                         alt="brand"
                       />
                     </div>
                     <div className="brand__item">
                       <img
-                        src="assets/img/wallets/wallet-04.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-light"
                         alt="brand"
                       />
                       <img
-                        src="assets/img/wallets/wallet-light-04.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-dark"
                         alt="brand"
                       />
                     </div>
                     <div className="brand__item">
                       <img
-                        src="assets/img/wallets/wallet-05.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-light"
                         alt="brand"
                       />
                       <img
-                        src="assets/img/wallets/wallet-light-05.svg"
+                        src="assets/img/logo/logo.png"
                         className="has-active-dark"
                         alt="brand"
                       />
@@ -358,62 +298,6 @@ function App() {
           <div
             className="section-divider"
             data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 100;"
-          >
-            <img src="assets/img/others/divider-01.svg" alt="divider" />
-          </div>
-          <section className="fact-area section-pt-60 section-pb-30">
-            <div className="container">
-              <div className="fact__items-wrap position-relative">
-                <img
-                  className="shape"
-                  src="assets/img/objects/bitcoin-01.png"
-                  width="32"
-                  alt="Object"
-                  style={{ bottom: "-32%", left: "30%" }}
-                  data-anime="opacity:[0, 1]; scale:[0, 1]; onview: -250; delay: 200;"
-                />
-                <img
-                  className="shape"
-                  src="assets/img/objects/ethereum-01.png"
-                  width="24"
-                  alt="Object"
-                  style={{ top: "-25%", right: "25%" }}
-                  data-anime="opacity:[0, 1]; scale:[0, 1]; onview: -250; delay: 200;"
-                />
-
-                <div
-                  className="row justify-content-center"
-                  data-anime="targets: > *; opacity:[0, 1]; scale:[0.5, 1]; onview: -250; delay: anime.stagger(100);"
-                >
-                  <div className="col-lg-4 col-md-6 col-sm-8">
-                    <div className="fact__item text-center">
-                      <h2 className="fact__count tg-text-gradient">4,000+</h2>
-                      <span className="meta">Wallets Connected</span>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-8">
-                    <div className="fact__item text-center">
-                      <h2 className="fact__count tg-text-gradient">20,000+</h2>
-                      <span className="meta">
-                        Collections Indexed every 5 mins.
-                      </span>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-8">
-                    <div className="fact__item text-center">
-                      <h2 className="fact__count tg-text-gradient">2.5x</h2>
-                      <span className="meta">
-                        Difference in Floor & Estimated Value
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <div
-            className="section-divider"
-            data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
           >
             <img src="assets/img/others/divider-01.svg" alt="divider" />
           </div>

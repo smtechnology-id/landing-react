@@ -13,46 +13,23 @@ const Navbar = () => {
                                 <nav className="tgmenu__nav">
                                     <div className="logo">
                                         <a href="index.html" className="light-logo">
-                                            <img src="/assets/img/logo/nerko-light.svg" alt="Nerko"/>
+                                            <img src="/assets/img/logo/logo.png" alt="Nerko"/>
                                         </a>
                                         <a href="index.html" className="dark-logo">
-                                            <img src="/assets/img/logo/nerko-dark.svg" alt="Nerko"/>
+                                            <img src="/assets/img/logo/logo.png" alt="Nerko"/>
                                         </a>
                                     </div>
                                     <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                         <ul className="navigation">
-                                            <li className="active menu-item-has-children"><a href="#home" className="section-link">Home</a>
-                                                <ul className="sub-menu">
-                                                    <li className="active"><a href="index.html">Home One</a></li>
-                                                    <li><a href="index-2.html">Home Two</a></li>
-                                                    <li><a href="index-3.html">Home Three</a></li>
-                                                    <li><a href="index-4.html">Home Four</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#minting" className="section-link">Minting</a></li>
-                                            <li><a href="#about" className="section-link">About</a></li>
-                                            <li><a href="#collection" className="section-link">Collection</a></li>
-                                            <li><a href="#roadmap" className="section-link">Roadmap</a></li>
-                                            <li className="menu-item-has-children"><a href="blog.html">Blog</a>
-                                                <ul className="sub-menu">
-                                                    <li><a href="blog.html">Our Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="index.html" className="section-link">Home</a></li>
+                                            <li><a href="index.html" className="section-link">About</a></li>
+                                            <li><a href="index.html" className="section-link">Services</a></li>
                                         </ul>
                                     </div>
                                     <div className="tgmenu__action">
                                         <ul className="list-wrap">
                                             <li className="header-social">
-                                                <a href="#" className="d-none d-sm-block">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                                        <path fill="currentColor"
-                                                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
-                                                        </path>
-                                                    </svg>
-                                                </a>
-                                                <a href="#"><i className="fab fa-discord"></i></a>
-                                                <a href="#" className="d-blcok d-xl-none" data-bs-toggle="modal" data-bs-target="#connectModal"><i className="fas fa-wallet"></i></a>
+                                                <a href="https://www.instagram.com/diskominfosantik_bekasi.kab?igsh=MW1mem9sb2tsYmR0OQ=="><i className="fab fa-instagram"></i></a>
                                             </li>
                                             <li className="header-btn"><button className="btn border-btn" data-bs-toggle="modal" data-bs-target="#connectModal">Connect wallet</button></li>
                                         </ul>
